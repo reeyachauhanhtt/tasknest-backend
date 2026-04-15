@@ -4,10 +4,10 @@
   "description": "Smart Collaboration & Workflow Platform",
   "license": "ISC",
   "author": "Reeya Chauhan",
-  "type": "commonjs",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "npx json-server --watch db.json --host 0.0.0.0 --port 10000",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
